@@ -1,0 +1,120 @@
+[
+    {
+        "name": "Madame Sari Restaurant",
+        "rating": 4.6,
+        "address": "Jl. Buah Batu No.165 A, Turangga",
+        "tags": [
+            "fried rice",
+            "chinese",
+            "indonesian",
+            "seafood",
+            "family-friendly"
+        ]
+    },
+    {
+        "name": "Kinokimi Backyard",
+        "rating": 4.8,
+        "address": "Jl. Buah Batu No.132, Cijagra",
+        "tags": [
+            "coffee",
+            "cafe",
+            "asian",
+            "brunch",
+            "workspace"
+        ]
+    },
+    {
+        "name": "Justus Steak House",
+        "rating": 4.7,
+        "address": "Jl. Terusan Buah Batu No.203-205",
+        "tags": [
+            "steak",
+            "western",
+            "grill",
+            "beef",
+            "premium"
+        ]
+    },
+    {
+        "name": "Chingu Cafe",
+        "rating": 4.5,
+        "address": "Jl. Buah Batu No.218, Cijagra",
+        "tags": [
+            "korean",
+            "street food",
+            "bibimbap",
+            "k-pop",
+            "instagrammable"
+        ]
+    },
+    {
+        "name": "Bebek Kaleyo",
+        "rating": 4.6,
+        "address": "Jl. Buah Batu No.243, Turangga",
+        "tags": [
+            "duck",
+            "indonesian",
+            "spicy",
+            "sambal",
+            "traditional"
+        ]
+    },
+    {
+        "name": "Ant Artisan Bakery & Coffee",
+        "rating": 4.7,
+        "address": "Jl. Maskumambang No.33, Turangga",
+        "tags": [
+            "bakery",
+            "artisan",
+            "coffee",
+            "pastry",
+            "healthy"
+        ]
+    },
+    {
+        "name": "Yumaju Coffee 3.0",
+        "rating": 4.6,
+        "address": "Jl. Buah Batu No.140, Turangga",
+        "tags": [
+            "coffee",
+            "cafe",
+            "minimalist",
+            "pastries",
+            "workspace"
+        ]
+    },
+    {
+        "name": "Maze Cafe Eatery & Patisserie",
+        "rating": 4.5,
+        "address": "Jl. Kliningan No.8A, Turangga",
+        "tags": [
+            "cafe",
+            "patisserie",
+            "western",
+            "pasta",
+            "dessert"
+        ]
+    },
+    {
+        "name": "Kiara Kopi",
+        "rating": 4.5,
+        "address": "Jl. Buah Batu No.271, Turangga",
+        "tags": [
+            "coffee",
+            "indonesian snacks",
+            "budget-friendly",
+            "outdoor"
+        ]
+    },
+    {
+        "name": "Ssst Coffee",
+        "rating": 4.7,
+        "address": "Jl. Kliningan II No.1, Turangga",
+        "tags": [
+            "coffee",
+            "quiet space",
+            "cheesecake",
+            "modern"
+        ]
+    }
+]

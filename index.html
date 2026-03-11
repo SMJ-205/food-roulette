@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Food Roulette 🎰</title>
+  <meta name="description" content="Spin the wheel and let Food Roulette pick your next lunch spot — no more debates with your officemates!" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="wrapper">
+
+    <!-- ── Header ── -->
+    <header class="site-header">
+      <div class="logo">
+        <span class="logo-icon" aria-hidden="true">🎰</span>
+        <span class="logo-text">Food Roulette</span>
+      </div>
+      <span class="header-sub">Spin. Eat. Enjoy.</span>
+    </header>
+
+    <!-- ── Roulette Section ── -->
+    <section class="roulette-section" aria-label="Roulette spinner">
+      <div class="roulette-card">
+
+        <p class="roulette-tagline">Lunch decision-maker</p>
+        <h1 class="roulette-title">Where are we eating today? 🤔</h1>
+
+        <!-- Result area — updated by JS -->
+        <div id="roulette-result" role="region" aria-live="polite" aria-label="Spin result">
+          <div class="result-placeholder">
+            <div class="placeholder-icon">🍽️</div>
+            <p>Hit spin and let fate decide!</p>
+          </div>
+        </div>
+
+        <!-- Spin button -->
+        <button
+          id="spin-btn"
+          class="spin-btn"
+          type="button"
+          aria-label="Spin the roulette"
+        >
+          <span class="btn-icon" aria-hidden="true">🎲</span>
+          Spin!
+        </button>
+
+      </div>
+    </section>
+
+    <!-- ── Restaurant List ── -->
+    <section aria-label="Restaurant list">
+      <div class="section-header">
+        <h2 class="section-title">📋 Nearby Restaurants</h2>
+        <span id="resto-count" class="section-count">—</span>
+      </div>
+      <div id="restaurant-list" class="resto-grid">
+        <!-- Cards injected by list.js -->
+      </div>
+    </section>
+
+  </div><!-- /.wrapper -->
+
+  <!-- ── Footer ── -->
+  <footer class="site-footer">
+    <p>Food Roulette · Built with ❤️ for hungry officemates</p>
+  </footer>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
